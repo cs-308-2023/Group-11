@@ -8,7 +8,7 @@ int main() {
 
     int n;
     cin >> n;
-    printf("The factorial of %d is %d\n", n, factorial(n));
+    cout<<"The factorial of %d is %d\n"<<n<<factorial(n)<<endl;
 
     return 0;
 }
