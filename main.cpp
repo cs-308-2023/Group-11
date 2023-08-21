@@ -2,12 +2,13 @@
 #include "functions.h"
 
 using namespace std;
-int main(){
+
+int main() {
     print_hello();
 
-    int n ;
+    int n;
     cin >> n;
-    cout<<endl; 
-    cout<<"The factorial of "<<n<<" is "<< factorial(n)<< endl;
+    printf("The factorial of %d is %d\n", n, factorial(n));
+
     return 0;
 }

@@ -5,9 +5,9 @@ int factorial(int n){
     if(n==0) return 1;
     if(n<0) {
         while(n<0){
-        cout<<"Please enter a positive number : ";
+        printf("Please enter a positive number : /n");
         cin>>n;
-        cout<<endl;
+      
         }
     }
     
