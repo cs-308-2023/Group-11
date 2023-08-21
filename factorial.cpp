@@ -4,11 +4,15 @@ using namespace std;
 int factorial(int n){
     if(n==0) return 1;
     if(n<0) {
-        while(n<0){
-        cout<<"Please enter a positive number : /n";
-        cin>>n;
+// <<<<<<< HEAD
+//         while(n<0){
+//         cout<<"Please enter a positive number : /n";
+//         cin>>n;
       
-        }
+//         }
+// =======
+        return -1;
+// >>>>>>> bug_fix
     }
     
     if(n!=1){
